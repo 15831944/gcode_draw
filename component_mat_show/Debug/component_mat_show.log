@@ -1,0 +1,31 @@
+﻿Build started 2018/12/17 15:23:42.
+     1>Project "D:\vs_project\component_mat_show\component_mat_show\component_mat_show.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\component_mat_show.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\essentials\include /ID:\vs_project\component_mat_show\include /IC:\opencv\opencv2.4.4\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp task.cpp
+         task.cpp
+         main.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\component_mat_show.exe.embed.manifest.res" Debug\component_mat_show_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs_project\component_mat_show\Debug\component_mat_show.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\essentials\lib /LIBPATH:D:\vs_project\component_mat_show\lib /LIBPATH:\library\cpp\lib\win32_i86 /LIBPATH:\lib\Win32 /LIBPATH:\Lib GCodeParsed.lib OBased.lib component_mat.lib opencv_calib3d244d.lib opencv_contrib244d.lib opencv_core244d.lib opencv_features2d244d.lib opencv_flann244d.lib opencv_gpu244d.lib opencv_highgui244d.lib opencv_imgproc244d.lib opencv_legacy244d.lib opencv_ml244d.lib opencv_nonfree244d.lib opencv_objdetect244d.lib opencv_photo244d.lib opencv_ts244d.lib opencv_video244d.lib opencv_videostab244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\component_mat_show.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs_project\component_mat_show\Debug\component_mat_show.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs_project\component_mat_show\Debug\component_mat_show.lib" /MACHINE:X86 Debug\component_mat_show.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\task.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\component_mat_show.exe.embed.manifest" /manifest Debug\component_mat_show.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\component_mat_show.exe.embed.manifest.res" Debug\component_mat_show_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs_project\component_mat_show\Debug\component_mat_show.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\essentials\lib /LIBPATH:D:\vs_project\component_mat_show\lib /LIBPATH:\library\cpp\lib\win32_i86 /LIBPATH:\lib\Win32 /LIBPATH:\Lib GCodeParsed.lib OBased.lib component_mat.lib opencv_calib3d244d.lib opencv_contrib244d.lib opencv_core244d.lib opencv_features2d244d.lib opencv_flann244d.lib opencv_gpu244d.lib opencv_highgui244d.lib opencv_imgproc244d.lib opencv_legacy244d.lib opencv_ml244d.lib opencv_nonfree244d.lib opencv_objdetect244d.lib opencv_photo244d.lib opencv_ts244d.lib opencv_video244d.lib opencv_videostab244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\component_mat_show.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs_project\component_mat_show\Debug\component_mat_show.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs_project\component_mat_show\Debug\component_mat_show.lib" /MACHINE:X86 Debug\component_mat_show.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\task.obj
+         component_mat_show.vcxproj -> D:\vs_project\component_mat_show\Debug\component_mat_show.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\component_mat_show.unsuccessfulbuild".
+         Touching "Debug\component_mat_show.lastbuildstate".
+     1>Done Building Project "D:\vs_project\component_mat_show\component_mat_show\component_mat_show.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.33
